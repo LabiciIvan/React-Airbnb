@@ -1,6 +1,7 @@
 body {
   margin:0;
   font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(rgba(247, 31, 31, 0.447), rgba(255, 255, 0, 0.189));
 }
 
 .navbar {
