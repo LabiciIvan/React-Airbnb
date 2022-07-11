@@ -5,10 +5,10 @@ export default function Card(props) {
     return (
         <div className='card'>
             {props.openSpot === 0 &&  <div className='card-badge'>SOLD OUT</div>}
-            <img className='card-image' src={props.imgs}/>
+            <img className='card-image' src={process.env.PUBLIC_URL + '/' + props.imgs}/>
             <div className='card-body'>
                 <h4 className='card-location'>
-                <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                     {props.location}
                 </h4>
                 {props.title && <h4 className='card-title'> {props.title}</h4>}
