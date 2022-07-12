@@ -4,7 +4,7 @@ import React from 'react';
 export default function NavBar() {
     return (
         <div className='navbar'>
-            <img className='nav-logo' src={process.env.PUBLIC_URL + '/images/airbnb.png'} ></img>
+            <img className='nav-logo' src={process.env.PUBLIC_URL + '/images/airbnb.png'} alt="just an logo"></img>
         </div>
     )
 }

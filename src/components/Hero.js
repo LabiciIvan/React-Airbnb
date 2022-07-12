@@ -17,21 +17,21 @@ export default function Hero() {
         <div className='hero'>
             <div className='hero-images'>
                 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/cook.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/cook.png'} alt="to cook"></img>
                 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/swim.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/swim.png'} alt="to swim"></img>
 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/dance.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/dance.png'} alt="to dance"></img>
                 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/photography.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/photography.png'} alt="to photo"></img>
 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/parachute.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/parachute.png'} alt="to parachute"></img>
                 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/violin.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/violin.png'} alt="to violin"></img>
 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/piano.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/piano.png'} alt="to piano"></img>
                 
-                    <img className='image' src={process.env.PUBLIC_URL + '/images/sing.png'}></img>
+                    <img className='image' src={process.env.PUBLIC_URL + '/images/sing.png'} alt="to sing"></img>
                 
             </div>
             <div className='hero-info'>
