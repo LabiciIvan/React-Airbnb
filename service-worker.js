@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7Busername%7D.github.io/precache-manifest.7d60bb16b257b54f74a9cfc7e32b77dc.js"
+  "/React-Airbnb/precache-manifest.4139a274dc36a2ca1c5ee270d9c17a95.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7Busername%7D.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/React-Airbnb/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
